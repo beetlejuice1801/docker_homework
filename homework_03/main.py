@@ -1,4 +1,3 @@
-import uvicorn
 from fastapi import FastAPI, status
 from fastapi.responses import JSONResponse
 
@@ -11,3 +10,4 @@ async def ping():
         status_code=status.HTTP_200_OK,
     )
     return response
+
